@@ -1,0 +1,29 @@
+#grad {
+    height: 649px;
+    background-image: linear-gradient(to bottom right, red, yellow, green);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#r {
+    border-radius: 25px;
+    background: red;
+    padding: 20px;
+    width: 30px;
+    height:20px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    #grad {
+        height: 632px;
+        background-image: linear-gradient(to bottom right, red, yellow, green);
+      }
+}

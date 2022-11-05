@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="grad">
+        <br>
+        <h1 id="head">Dot, Line & Box</h1>
+        <div id="timer" class="flex-centered"></div>
+      <table align="center">
+    <tr>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box1 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box2 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box3 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png"></td>
+    </tr>
+    <tr>
+      <td>
+        <div class="vertLine box1 available">
+          <div id="box1" class="box"></div>
+        </div>
+      </td>
+      <td>
+        <div class="vertLine box1 box2 available">
+          <div id="box2" class="box"></div>
+        </div>
+      </td>
+      <td>
+        <div class="vertLine box2 box3 available">
+          <div id="box3" class="box"></div>
+        </div>
+      </td>
+      <td>
+        <div class="vertLine box3 available"></div>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box1 box4 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box2 box5 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box3 box6 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png"></td>
+    </tr>
+    <tr>
+      <td>
+        <div class="vertLine box4 available">
+          <div id="box4" class="box"></div>
+        </div>
+      </td>
+      <td>
+        <div class="vertLine box4 box5 available">
+          <div id="box5" class="box"></div>
+      </td>
+      <td>
+        <div class="vertLine box5 box6 available">
+          <div id="box6" class="box"></div>
+        </div>
+      </td>
+      <td>
+        <div class="vertLine box6 available"></div>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box4 box7 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box5 box8 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box6 box9 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png"></td>
+    </tr>
+    <tr>
+      <td>
+        <div class="vertLine box7 available">
+          <div id="box7" class="box"></div>
+        </div>
+      </td>
+      <td>
+        <div class="vertLine box7 box8 available">
+          <div id="box8" class="box"></div>
+        </div>
+      </td>
+      <td>
+        <div class="vertLine box8 box9 available">
+          <div id="box9" class="box"></div>
+        </div>
+      </td>
+      <td>
+        <div class="vertLine box9 available"></div>
+      </td>
+    </tr>
+    <tr>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box7 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box8 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png">
+        <div class="horizLine box9 available"></div>
+      </td>
+      <td><img src="./assets/black_ball.png"></td>
+    </tr>
+  </table>
+            <button id="restart">Restart</button>
+            <button id="exit">Exit</button>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>
